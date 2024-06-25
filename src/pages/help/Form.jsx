@@ -1,9 +1,11 @@
+// import "./index.css";
+
 function Form() {
     return (
         <>
             <h1>Send Us Question</h1>
             <hr />
-            <div className="form-container">
+            <div className=" w-full w-80 m-0 m-auto pt-4">
                 <form>
                     <label className="form-control">
                         <span>Your Email:</span>

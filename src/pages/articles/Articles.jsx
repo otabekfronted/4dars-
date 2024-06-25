@@ -14,7 +14,7 @@ function Articles() {
             {error && <h3>{error}</h3>}
 
             {articles &&
-                articles.data.map((article) => {
+                articles.map((article) => {
                     return (
                         <div className="card" key={article.id}>
                             <h3>Title: {article.title}</h3>

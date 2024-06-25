@@ -1,10 +1,8 @@
-import "./index.css";
-
+import "./App.css";
 // react-router-dom
 import { RouterProvider, createBrowserRouter } from "react-router-dom"; // v6...
 
 // pages
-import Home from "./pages/Home";
 import About from "./pages/About";
 import Faq from "./pages/help/Faq";
 import Form from "./pages/help/Form";
@@ -18,6 +16,7 @@ import Register from "./Register";
 import RootLayout from "./layout/RootLayout";
 import ContactLayout from "./layout/ContactLayout";
 import ArticlesLayout from "./layout/ArticlesLayout";
+import Home from "./pages/Home";
 
 function App() {
     const routes = createBrowserRouter([
@@ -75,7 +74,7 @@ function App() {
     ]);
 
     return (
-        <div className="App">
+        <div className="App  m-0 m-auto">
             <RouterProvider router={routes} />
         </div>
     );

@@ -1,6 +1,7 @@
+import "../index.css";
 function Home() {
     return (
-        <div className="">
+        <div className="text-center text-xl container">
             <h1>Home</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
